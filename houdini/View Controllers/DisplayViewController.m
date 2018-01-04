@@ -27,8 +27,8 @@
 
 @implementation DisplayViewController
 
-int width = 750;
-int height = 1334;
+int width = 650;
+int height = 1136;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -39,8 +39,8 @@ int height = 1334;
 - (IBAction)iPhoneSegmentChanged:(id)sender {
     
     if (self.iPhoneSegmentControl.selectedSegmentIndex == 0) { // 8
-        width = 750;
-        height = 1334;
+        width = 650;
+        height = 1136;
     } else if (self.iPhoneSegmentControl.selectedSegmentIndex == 1) { // 8 Plus
         width = 827;
         height = 1472;
